@@ -1,0 +1,166 @@
+            img{
+            width: 100%;
+        }
+        nav a, nav 
+        li{ color:black;
+            text-shadow: 0 0 px black;}
+      
+        h1 {font-size: 250%;
+        font-family:'pacifico';
+        text-align:center;
+        }
+        #top{
+            font-size: 30px;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+
+
+        a{
+            text-decoration: none;
+        }
+.ville{
+    background-size:cover;
+    width: 85%;
+    height: 300px;;
+    border:10px solid white;
+
+    border-radius: 35px;
+    font-size: 40px;
+    color: burlywood;
+    text-shadow: 0 0 30px black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'pacifico';
+    box-shadow: 0 0 100px rgba(0,0,0,0.2); 
+   
+}
+.ville:hover
+{border:10px solid burlywood;
+
+} 
+
+
+
+
+
+        body
+        {font-family:Arial;
+        margin: 0px;}
+    
+    #bko{
+        background-image: url("https://img.freepik.com/photos-premium/vue-nocturne-grande-mosquee-sharjah-meilleurs-endroits-visiter-dubai-architecture-etonnante-design-voyage-tourisme-sharjah-image-incroyable-image-mosquee-ciel-nocturne_396607-74015.jpg");
+        grid-column: 2/4;
+    }
+        
+    #kati{
+        background-image: url("https://img.freepik.com/photos-premium/istanbul-belle-vue-mosquee-bleue-port-ville-navires-attente-mer_396607-78401.jpg?w=1380")
+    }
+
+    #paname{background-image: url("https://img.freepik.com/photos-premium/vue-nocturne-grande-mosquee-sharjah-meilleurs-endroits-visiter-dubai-architecture-etonnante-design-voyage-tourisme-sharjah-image-incroyable-image-mosquee-ciel-nocturne_396607-73877.jpg?w=1380");
+        grid-column: 2/4;
+
+    }
+
+    
+    #etta{background-image: url("https://img.freepik.com/photos-premium/paysage-beau-coucher-soleil-mosquee-centrale-province-songkhla-thailande_396607-78272.jpg?w=1380");
+        grid-column: 1/4 ;
+    }
+    #asseta{
+        background-image: url("https://img.freepik.com/photos-premium/silhouette-mosquee-islam-ramadan-dans-ciel-nocturne-croissant-lune-etoile_396607-78436.jpg?w=1380");
+        
+    }
+    
+    
+ul{margin: 5px 0;
+padding: 0;
+list-style-type:none ;
+display: flex;
+gap: 15px;
+}
+       
+        header
+        {
+         font-size: 90px;
+         font-family:"pacifico";
+         color: burlywood;
+         text-shadow: 0 0 4px black;
+        }
+        .contenu
+        {padding: 10px;}
+        
+        footer
+        {background-color: #e5e7e6;
+            padding: 1px;
+            font-size: 12px;
+            background-image: url("https://img.freepik.com/vecteurs-libre/formes-polygonales-fond_1053-464.jpg?t=st=1722436331~exp=1722439931~hmac=108cbfbd45a72b43081de5398ebe3e41ce66fb4178cb96e3c9b11a7b55d09194&w=740");}
+
+            span{ color:black;
+            }
+            
+            
+            #bienvenue
+            {background-image:url("../images/Mosquée-de-Cologne.jpg");
+             background-repeat : no-repeat;   
+             background-size: cover;
+             height: 80vh;
+             padding-top: 450px;
+             display:flex;
+            
+            }
+            #slogan{
+                display: block;
+                font-size: 60px;
+                font-family: roboto;
+                color:white;
+                padding-top: 450;
+                 font-family:'pacifico';
+            }
+
+            .conteneur{
+                
+                margin: 0 auto;
+            }
+            
+            #flexbox-ville{
+                display:grid;
+             grid-template-columns:repeat(3,1fr) ;
+             gap: 30px;
+             
+
+
+            }
+            @media all and (max-width:1350)  {
+                .conteneur {width: 800px;}
+                #flexbox-ville{grid-template-columns:repeat(2,1fr) ;}
+                #paname{
+                    grid-column: auto;
+                }
+                #etta{
+                    grid-column: 1/3;
+                }
+            }
+
+            @media all and (max-width:800px)  {
+                .conteneur{
+                    width: 500px; }
+                    
+                    #flexbox-ville  {
+                        grid-template-columns:repeat(2,1fr);} 
+
+                        #paname{
+                            grid-row: auto;}
+                           
+                            #etta{
+                                grid-column: auto;
+                            }
+            }
+
+
+
+            @media all and (max-width:500px)
+            {
+
+            }
